@@ -1,10 +1,10 @@
 # ynu-thesis-formatting
 
-> 一个 Claude Code Skill——把 Markdown / Word 论文草稿一键转为符合中国高校硕士毕业论文格式的 Word 文档。
+> 一个 Claude Code Skill——把 Markdown / Word 论文草稿一键转为符合中国高校硕士毕业论文格式的 Word 文档。仅针对毕业论文的格式调整，无写作功能。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**无需 Pandoc，无需安装 Microsoft Word**。底层基于 `docx` (v9.x) 库纯 Node.js 实现。
+**无需 Pandoc，无需安装 Microsoft Word**。底层基于 `docx` (v9.x) 库纯 Node.js 实现。若需进一步优化公式的问题可以使用pandoc进行嵌入。
 
 默认基准：**云南大学硕士论文格式**。所有参数（校名、页边距、字体、字号等）均可修改，适配你自己的学校。
 

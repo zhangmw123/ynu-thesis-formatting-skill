@@ -1,0 +1,31 @@
+{
+  "name": "ynu-thesis-formatting",
+  "version": "1.0.0",
+  "description": "Claude Code Skill — 将 Markdown / Word 草稿自动转换为符合中国高校硕士毕业论文格式的 Word 文档",
+  "main": "ynu-thesis-formatting/scripts/generate_thesis.js",
+  "files": [
+    "ynu-thesis-formatting/"
+  ],
+  "keywords": [
+    "claude-code-skill",
+    "thesis",
+    "formatting",
+    "docx",
+    "word",
+    "chinese-thesis",
+    "硕士论文",
+    "论文排版"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^9.7.1",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@xmldom/xmldom": "^0.8.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangmw123/ynu-thesis-formatting-skill.git"
+  }
+}
